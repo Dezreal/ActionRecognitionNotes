@@ -225,15 +225,15 @@ cv2.rectangle(image, (int(face.x), int(face.y)), (int(face.x + face.width), int(
 
 ## width
 
-矩形宽度。参见 [Rectangle.height](#Rectangle.height)
+矩形宽度。另见 [Rectangle.height](#Rectangle.height)
 
 ## x
 
-矩形横坐标。参见 [Rectangle.height](#Rectangle.height)
+矩形横坐标。另见 [Rectangle.height](#Rectangle.height)
 
 ## y
 
-矩形纵坐标。参见 [Rectangle.height](#Rectangle.height)
+矩形纵坐标。另见 [Rectangle.height](#Rectangle.height)
 
 # WrapperPython
 
@@ -296,11 +296,11 @@ stop(self: openpose.pyopenpose.WrapperPython) -> None
 
 终止openpose wrapper。
 
-## waitAndEmplace
+## <h2 id="WrapperPython.waitAndEmplace">waitAndEmplace</h2>
 
 waitAndEmplace(self: openpose.pyopenpose.WrapperPython, arg0: List[op::Datum]) -> None
 
-将数据读入openpose wrapper，异步操作。另见`waitAndPop`。
+将数据读入openpose wrapper，异步操作。另见[waitAndPop](#WrapperPython.waitAndPop)。
 
 ```python
     opWrapper.waitAndEmplace([datum])
@@ -309,11 +309,11 @@ waitAndEmplace(self: openpose.pyopenpose.WrapperPython, arg0: List[op::Datum]) -
     print("Body keypoints: \n" + str(datum.poseKeypoints))
 ```
 
-## waitAndPop
+## <h2 id="WrapperPython.waitAndPop">waitAndPop</h2>
 
  waitAndPop(self: openpose.pyopenpose.WrapperPython, arg0: List[op::Datum]) -> bool
 
-取出openpose wrapper的计算结果，异步操作。另见`waitAndEmplace`。
+取出openpose wrapper的计算结果，异步操作。另见[waitAndEmplace](#WrapperPython.waitAndEmplace)。
 
 ```python
     datum.cvInputData = imageToProcess
