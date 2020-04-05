@@ -8,10 +8,7 @@
     * [功能与使用方法](OpenPose/功能与使用方法.md)
     * [算法与网络结构](OpenPose/算法与网络结构.md)
     * [Python API](OpenPose/PythonAPI.md)
-
-- [Task: 视频人物动作分类](Task/README.md)
-
-  - [数据预处理](Task/data.md)
-  
-  - [邻接图构建](Task/graph.md)
-  - [模型](Task/model.md)
+* [Task: 视频人物动作分类](Task/README.md)
+    * [数据预处理](Task/data.md)
+    * [邻接图构建](Task/graph.md)
+    * [模型](Task/model.md)
