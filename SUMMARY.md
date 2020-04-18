@@ -13,3 +13,4 @@
     * [数据预处理](Task/data.md)
     * [邻接图构建](Task/graph.md)
     * [模型](Task/model.md)
+    * [ST-GCN](Task/stgcn.md)
