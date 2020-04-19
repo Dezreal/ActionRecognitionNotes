@@ -1,6 +1,6 @@
 
 
-# ST-GCN
+# ST-GCN代码思想
 
 ## Graph的建立
 
