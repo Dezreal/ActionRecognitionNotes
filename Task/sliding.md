@@ -65,5 +65,8 @@ read watch 看表
 Process finished with exit code 0
 ```
 
+------
 
+实时读取摄像头
 
+![wave](../pic/wave.png)
