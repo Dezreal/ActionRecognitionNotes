@@ -12,12 +12,12 @@ https://github.com/Dezreal/VideoActionClassifier/blob/master/data/sliding.py
 
 ### 参数
 
-- **path** (str) - 文件路径
+- **path** (str) - 文件路径，0表示摄像头。
 
-- **width** (int) - 窗口大小
-- **stride** (int, optional) - 滑动步幅
-- **dilation** (int, optional) - 窗口内选取间隔
-- **padding** (tuple, optional) - 左右零值填充
+- **width** (int) - 窗口大小。
+- **stride** (int, optional) - 滑动步幅。
+- **dilation** (int, optional) - 窗口内选取间隔。
+- **padding** (tuple, optional) - 左右零值填充。
 
 ### 运行效果
 
