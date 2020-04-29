@@ -23,7 +23,7 @@ https://github.com/Dezreal/VideoActionClassifier/blob/master/data/sliding.py
 
 滑动读取（`sliding(path, 8, stride=1, dilation=2, padding=(2, 2))`）并导入模型计算，视频实际内容是“挥手”。
 
-```tex
+```
 /usr/bin/python2.7 /home/nya-chu/PycharmProjects/VideoActionClassifier/st_gcn/run.py
 Starting OpenPose Python Wrapper...
 Auto-detecting all available GPUs... Detected 1 GPU(s), using 1 of them starting at GPU 0.
