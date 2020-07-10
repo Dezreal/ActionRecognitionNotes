@@ -161,6 +161,12 @@ nya-chu@Lenovo-ideapad-Ubuntu1904:~/CV/openpose$ ./build2/examples/openpose/open
 
 重新进行测试。
 
+测试通过后：
+```shell
+cd build2
+sudo make install
+```
+
 ### 第二次编译
 
 本次编译，我们：安装OpenPose，安装op的python接口。
